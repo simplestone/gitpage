@@ -1,0 +1,4 @@
+baseURL = "https://simplestone.github.io/"
+languageCode = "ko"
+title = "simplestone"
+theme = "ananke"
