@@ -2,3 +2,8 @@
 	path = public
 	url = https://github.com/simplestone/simplestone.github.io.git
 	branch = master
+
+[submodule "hemingway2"]
+	path = themes/hemingway2
+	url = https://gitlab.com/beli3ver/hemingway2.git
+	branch = master
