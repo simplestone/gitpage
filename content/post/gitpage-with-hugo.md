@@ -36,6 +36,6 @@ gitpages 에서 new post를 한다
 - git commands
   - `<submodule>` add / commit
   - `<parent>` add -A / commit / push `<origin>` `<branch>`
-  - `<parent>` submodule update --remote
+  - `<parent>` submodule update `--`remote
   - `<submodule>` checkout `<branch>`
   - `<submodule>` push `<origin>` `<branch>`
