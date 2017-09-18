@@ -23,11 +23,19 @@ draft: false
   - git submodule
     - http://ohgyun.com/711
     - https://stackoverflow.com/a/5814351
+    - https://stackoverflow.com/a/36375256
 
 ## 새로운 글을 쓸때
-- gitpages 에서 new post를 한다
-- 페이지 테스트 되면, hugo를 실행하여 public으로 발행한다
-- public에서 git add / commit / push를 한다
-- gitpages에서 git add / commit / push를 한다
-- git parent module이 sub module의 커밋해시를 바라보고 있기때문에 마지막에 커밋/푸시를 해줘야한다
-
+```
+gitpages 에서 new post를 한다
+페이지 테스트 되면, hugo를 실행하여 public으로 발행한다
+```
+- hugo commands
+  - `<parent>` hugo new `<post>`/new-post-title.md
+  - `<parent>` hugo
+- git commands
+  - `<submodule>` add / commit
+  - `<parent>` add -A / commit / push <origin> <branch>
+  - `<parent>` submodule update --remote
+  - `<submodule>` checkout <branch>
+  - `<submodule>` push <origin> <branch>
