@@ -1,7 +1,7 @@
 ---
 title: "Gitpage With Hugo"
 date: 2017-09-17T00:28:03+09:00
-draft: true
+draft: false
 ---
 ## github / pages
 - github 계정 만들기
