@@ -35,3 +35,6 @@ draft: false
 > - kafka quickstart : https://kafka.apache.org/quickstart 
 - epicdevs님 블로그 : http://epicdevs.com/tag/kafka  
 - 고승범님 브런치 : https://brunch.co.kr/keyword/Kafka
+
+## 간단 예제로 테스트
+- https://github.com/simplestone/kafka-spring
