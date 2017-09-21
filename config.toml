@@ -2,3 +2,5 @@ baseURL = "https://simplestone.github.io/"
 languageCode = "ko"
 title = "simplestone"
 theme = "hemingway2"
+publishDir = "../simplestone.github.io"
+
